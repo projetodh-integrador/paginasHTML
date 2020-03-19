@@ -1,0 +1,45 @@
+#logo-position{
+  padding-right: 10px;
+}
+ul {
+  list-style-type: none;
+  }
+
+.botoes-acesso-rapido{
+  padding-left: 5%;
+
+}
+
+  
+ body{ 
+  height: 500px;
+   
+ }
+
+
+ #formularios{
+   float: right;
+   padding-right: 20%;
+   width: 80%;
+   height: 500px;
+   
+  
+ }
+
+ #rodape{
+    clear: both;
+    color: blanchedalmond;
+    text-align: center;
+    background-color: black;
+    height: 1%;
+    margin: 0;
+ }
+  
+
+ #conteudo-principal{
+   padding: 1%;
+   position: relative;
+ }
+
+
+ 
