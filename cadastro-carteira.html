@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Cadastro Receitas</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--Biblioteca Botstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </head>
+
+  <header>    
+
+    <!--Initial Menu-->
+    <div class="menu-inicial">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        
+      
+      <!--Navegação Dropdown-->
+
+       <!--Logo-->
+       
+       <div id="logo-position" href="index.html">
+
+        <img src="imagens\logomini.GIF" class="rounded" alt="logo" width="50">
+       </div>
+
+      
+       <div id="menu-cadastro">
+
+        <div class="d-flex">
+          <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Menu</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">            
+              <a class="dropdown-item" href="index.html">Home</a>
+              <div class="dropdown-divider"></div>
+  
+              <a class="dropdown-item" href="cadastro.html">Cadastro</a>
+              <div class="dropdown-divider"></div>
+                                    
+              <a class="dropdown-item" href="#">Relatórios</a>
+              <div class="dropdown-divider"></div>
+  
+              <a class="dropdown-item" href="#">Configurações</a>
+              
+            </div>
+          </div>
+  
+          </div>         
+  
+                    
+          </div>
+      </header>
+        
+        
+        <body>
+
+          <!--rotas menu Breadcrump-->
+          <div id="rotas-menu">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="cadastro.html">Cadastro</a></li>                        
+              <li class="breadcrumb-item active" aria-current="page">Receitas</li>
+            </ol>
+          </nav>
+        </div>
+
+        <!--container-->
+        <div class="container-fluid">
+        
+          <!--container-->
+        <div class="container" id="container-home">
+          
+          <!--Divisão formulario-->        
+          <div class="mx-auto" style="width: 400px">
+            <form>
+                <fieldset>
+                  <div class="form-group">
+                    <label for="nome_carteira">Digite o nome da Carteira: </label>
+                    <input type="text" id="nome_carteira" class="form-control" placeholder="Informe o nome da carteira">
+                  </div>
+                  <div class="form-group">
+                    <label for="valor_carteira">Digite o valor inicial da Carteira: </label>
+                    <input type="text" id="valor_carteira" class="form-control" placeholder="Informe o valor disponível na carteira">
+                  </div>
+                  <div class="form-group">
+                    <label for="anotacoes_carteira">Anotações (Opcional): </label>
+                    <input type="text" id="anotacoes_carteira" class="form-control" placeholder="Informe anotações sobre a carteira">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Salvar</button>
+                </fieldset>
+              </form>
+            </div>
+
+          </div>
+        
+
+
+
+
+        </body>
+
+        <!--Div Rodape-->
+        <footer class="container-fluid fixed-bottom bg-light py-2 text-center">
+          <span>Cash Control &copy; 2020</span>
+        
+        </footer>
+      
+
+        
+
+</html> 
